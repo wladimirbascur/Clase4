@@ -1,0 +1,102 @@
+<!-- ir a codeshare.io/64KgN0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Bootstrap</title>
+    <!-- pegar el link de bootstrap para utilizar sus estilos por medio de las clases -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- los estilos de bootstrap van en las clases  -->
+    <!-- bg-primary es el color de fondo azul (primary, success, danger) 
+            p-5 es el espaciado va de 1 al 5
+            text-center centra el texto, y existe text-end(final) text-start 
+            text-white es el texto blanco -->
+    <nav class="navbar navbar-expand-sm bg-dark">
+        <div class="container-fluid ">
+            <ul class="navbar-nav">
+                <!-- a es la etiqueta que permite redireccionar -->
+                <li class="nav-item">
+                    <a href="" class="nav-link text-white">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.inacap.cl" target="_blank" class="nav-link text-white">Inacap</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="bg-primary p-5 text-center text-white">
+        <h1>Web con Librerías</h1>
+        <h3>Esta web tiene estilos de Bootstrap</h3>
+    </header>
+    <main class="container">
+        <div class="col-12 row">
+            <!-- recuadro -->
+             <div class="mt-3 col-4">
+            <div class="card">
+                <div class="card-title">
+                    <h2 class="text-center">Información</h2>
+                </div>
+                <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, exercitationem aspernatur nam
+                        quidem veritatis doloremque, asperiores unde quis explicabo modi optio consectetur, tempore
+                        ullam cum totam. Odit quis explicabo expedita?</p>
+                </div>
+            </div>
+        </div>
+            <div class="card mt-3 col-4">
+                <div class="card-title">
+                    <h2 class="text-center">Espacios</h2>
+                </div>
+                <div class="card-body">
+                    <p>Texto para mostrar las clases en bootstrap, especificamente la clase card-body</p>
+                </div>
+            </div>
+            <div class=" mt-3 col-4">
+                <div class="card">
+                    <div class="card-title">
+                        <h2 class="text-center">Espacios</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Texto para mostrar las clases en bootstrap, especificamente la clase card-body</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="table-responsive mt-4">
+            <table class="table table-bordered table-hover">
+                <thead class="table-warning">
+                    <tr>
+                        <th>N°</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Juan</td>
+                        <td>Perez</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>María</td>
+                        <td>Toledo</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Pedro</td>
+                        <td>Rojas</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+
+</html>
